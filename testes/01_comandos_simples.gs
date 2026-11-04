@@ -1,4 +1,4 @@
-# Teste 1 (válido): todos os comandos simples
+# Teste 1 (valido): todos os comandos simples
 LIGAR(EST-AA01);
 ABRIR();
 AQUECER(24);
@@ -8,7 +8,7 @@ FECHAR();
 PARAR();
 DESLIGAR();
 
-# LIGAR(); é lexicalmente válido, embora falte o argumento:
-# a análise sintática (TP2) é que o rejeitará.
+# LIGAR(); e lexicalmente valido, embora falte o argumento:
+# a analise sintatica (TP2) e que o rejeitara.
 LIGAR();
 LIGAR(EST-ZB99);

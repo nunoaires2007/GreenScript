@@ -1,10 +1,10 @@
-# Teste 7: apenas comentários e separadores
+# Teste 7: apenas comentarios e separadores
 
 	  
-# LIGAR(EST-AA01); dentro de comentário não gera tokens
+# LIGAR(EST-AA01); dentro de comentario nao gera tokens
    # @ = ! <== 012 LIGARX: nada disto gera erros
 
-	# Comentário em UTF-8: ç ã é ü € — 🌱
+	# Comentario em UTF-8: c a e u € — 🌱
 
     	
-# último comentário sem mudança de linha
+# ultimo comentario sem mudanca de linha

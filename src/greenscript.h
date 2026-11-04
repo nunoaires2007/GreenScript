@@ -5,7 +5,7 @@
 extern int total_tokens;
 extern int total_erros;
 
-/* Analisa o ficheiro indicado; devolve 0 em sucesso, -1 se não abrir. */
+/* Analisa o ficheiro indicado; devolve 0 em sucesso, -1 se nao abrir. */
 int analisa_ficheiro(const char *caminho);
 
 #endif

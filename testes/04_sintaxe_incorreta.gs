@@ -1,4 +1,4 @@
-# Teste 4 (válido lexicalmente): tokens válidos em ordem sintaticamente incorreta
+# Teste 4 (valido lexicalmente): tokens validos em ordem sintaticamente incorreta
 # Nenhum destes casos deve originar erro neste trabalho.
 LIGAR();
 ) LIGAR ( ;

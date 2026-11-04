@@ -1,4 +1,4 @@
-# Teste 6 (inválido): caracteres não reconhecidos e operadores incompletos
+# Teste 6 (invalido): caracteres nao reconhecidos e operadores incompletos
 @
 LIGAR(EST-AA01) @ DESLIGAR();
 SE (HUMIDADE(2) = 30) { REGAR(2,15); }

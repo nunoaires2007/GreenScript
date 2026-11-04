@@ -1,4 +1,4 @@
-# Teste 5 (inválido): sequências malformadas (um erro por sequência completa)
+# Teste 5 (invalido): sequencias malformadas (um erro por sequencia completa)
 LIGAR
 LIGARX
 ligar
@@ -16,5 +16,5 @@ REGAR_2
 REGAR(2,-5);
 LIGAR(EST-AA01);
 SENAOX(1)
-# Continuação após erros: a linha seguinte tem tokens válidos e inválidos
+# Continuacao apos erros: a linha seguinte tem tokens validos e invalidos
 AQUECER(024); ESPERAR(60s); FECHAR();

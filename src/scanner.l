@@ -1,8 +1,8 @@
 /*
- * GreenScript - especificação FLEX do analisador lexical (TP1).
+ * GreenScript - especificacao FLEX do analisador lexical (TP1).
  *
- * Cada token é escrito numa linha: <linha> <CATEGORIA> <lexema>
- * Cada erro é escrito como:      Erro lexical na linha <n>: <motivo> '<lexema>'
+ * Cada token e escrito numa linha: <linha> <CATEGORIA> <lexema>
+ * Cada erro e escrito como:      Erro lexical na linha <n>: <motivo> '<lexema>'
  */
 
 %option noyywrap nounput noinput
@@ -23,7 +23,7 @@ static void token(const char *categoria)
     total_tokens++;
 }
 
-/* Escreve um diagnóstico e continua a análise. */
+/* Escreve um diagnostico e continua a analise. */
 static void erro(const char *motivo)
 {
     printf("Erro lexical na linha %d: %s '%s'\n", yylineno, motivo, yytext);
@@ -40,9 +40,9 @@ UTF8        [\xC2-\xF4][\x80-\xBF]{1,3}
 
 %%
 
- /* Separadores e comentários: ignorados */
-[ \t\r\n]+          { /* CRLF: o \r é ignorado, só o \n conta a linha */ }
-"#".*               { /* comentário até ao fim da linha ou do ficheiro */ }
+ /* Separadores e comentarios: ignorados */
+[ \t\r\n]+          { /* CRLF: o \r e ignorado, so o \n conta a linha */ }
+"#".*               { /* comentario ate ao fim da linha ou do ficheiro */ }
 
  /* Palavras reservadas */
 "LIGAR"             { token("LIGAR"); }
@@ -62,14 +62,14 @@ UTF8        [\xC2-\xF4][\x80-\xBF]{1,3}
 {INTEIRO}           { token("INTEIRO"); }
 
  /*
-  * Qualquer sequência máxima de letras, algarismos, '-' ou '_' que não
+  * Qualquer sequencia maxima de letras, algarismos, '-' ou '_' que nao
   * corresponda integralmente a uma das regras anteriores. Pelo
-  * reconhecimento mais longo, LIGARX, 012 ou EST-AA001 são apanhados aqui
-  * por inteiro (um único erro, sem tokens parciais).
+  * reconhecimento mais longo, LIGARX, 012 ou EST-AA001 sao apanhados aqui
+  * por inteiro (um unico erro, sem tokens parciais).
   */
 {CANDIDATO}         { erro("sequencia invalida"); }
 
- /* Operadores relacionais (os de dois caracteres têm prioridade) */
+ /* Operadores relacionais (os de dois caracteres tem prioridade) */
 "<="                { token("MENOR_IGUAL"); }
 ">="                { token("MAIOR_IGUAL"); }
 "=="                { token("IGUAL"); }
@@ -85,7 +85,7 @@ UTF8        [\xC2-\xF4][\x80-\xBF]{1,3}
 ","                 { token("VIRGULA"); }
 ";"                 { token("PONTO_VIRG"); }
 
- /* Carácter não reconhecido (inclui = e ! isolados, + e *) */
+ /* Caracter nao reconhecido (inclui = e ! isolados, + e *) */
 {UTF8}              { erro("caracter nao reconhecido"); }
 .                   { erro("caracter nao reconhecido"); }
 
