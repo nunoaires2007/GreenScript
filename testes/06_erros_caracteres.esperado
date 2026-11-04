@@ -1,0 +1,101 @@
+Erro lexical na linha 2: caracter nao reconhecido '@'
+3 LIGAR       LIGAR
+3 ABRE_PAR    (
+3 ID_ESTUFA   EST-AA01
+3 FECHA_PAR   )
+Erro lexical na linha 3: caracter nao reconhecido '@'
+3 DESLIGAR    DESLIGAR
+3 ABRE_PAR    (
+3 FECHA_PAR   )
+3 PONTO_VIRG  ;
+4 SE          SE
+4 ABRE_PAR    (
+4 HUMIDADE    HUMIDADE
+4 ABRE_PAR    (
+4 INTEIRO     2
+4 FECHA_PAR   )
+Erro lexical na linha 4: caracter nao reconhecido '='
+4 INTEIRO     30
+4 FECHA_PAR   )
+4 ABRE_CHAV   {
+4 REGAR       REGAR
+4 ABRE_PAR    (
+4 INTEIRO     2
+4 VIRGULA     ,
+4 INTEIRO     15
+4 FECHA_PAR   )
+4 PONTO_VIRG  ;
+4 FECHA_CHAV  }
+5 SE          SE
+5 ABRE_PAR    (
+Erro lexical na linha 5: caracter nao reconhecido '!'
+5 HUMIDADE    HUMIDADE
+5 ABRE_PAR    (
+5 INTEIRO     2
+5 FECHA_PAR   )
+5 FECHA_PAR   )
+5 ABRE_CHAV   {
+5 ESPERAR     ESPERAR
+5 ABRE_PAR    (
+5 INTEIRO     60
+5 FECHA_PAR   )
+5 PONTO_VIRG  ;
+5 FECHA_CHAV  }
+6 HUMIDADE    HUMIDADE
+6 ABRE_PAR    (
+6 INTEIRO     2
+6 FECHA_PAR   )
+6 MENOR_IGUAL <=
+Erro lexical na linha 6: caracter nao reconhecido '='
+6 INTEIRO     30
+7 HUMIDADE    HUMIDADE
+7 ABRE_PAR    (
+7 INTEIRO     2
+7 FECHA_PAR   )
+7 DIFERENTE   !=
+Erro lexical na linha 7: caracter nao reconhecido '='
+7 INTEIRO     30
+8 HUMIDADE    HUMIDADE
+8 ABRE_PAR    (
+8 INTEIRO     2
+8 FECHA_PAR   )
+Erro lexical na linha 8: caracter nao reconhecido '='
+Erro lexical na linha 8: caracter nao reconhecido '!'
+8 INTEIRO     30
+9 HUMIDADE    HUMIDADE
+9 ABRE_PAR    (
+9 INTEIRO     2
+9 FECHA_PAR   )
+9 MAIOR_IGUAL >=
+Erro lexical na linha 9: caracter nao reconhecido '='
+9 MENOR       <
+9 INTEIRO     30
+10 AQUECER     AQUECER
+10 ABRE_PAR    (
+10 INTEIRO     20
+Erro lexical na linha 10: caracter nao reconhecido '+'
+10 INTEIRO     4
+10 FECHA_PAR   )
+10 PONTO_VIRG  ;
+11 REGAR       REGAR
+11 ABRE_PAR    (
+11 INTEIRO     2
+Erro lexical na linha 11: caracter nao reconhecido '*'
+11 INTEIRO     3
+11 VIRGULA     ,
+11 INTEIRO     15
+11 FECHA_PAR   )
+11 PONTO_VIRG  ;
+12 ESPERAR     ESPERAR
+12 ABRE_PAR    (
+12 INTEIRO     60
+12 FECHA_PAR   )
+Erro lexical na linha 12: caracter nao reconhecido '$'
+Erro lexical na linha 12: caracter nao reconhecido '%'
+Erro lexical na linha 12: caracter nao reconhecido '&'
+Erro lexical na linha 12: caracter nao reconhecido '['
+Erro lexical na linha 12: caracter nao reconhecido ']'
+Erro lexical na linha 12: caracter nao reconhecido '.'
+Erro lexical na linha 12: caracter nao reconhecido ':'
+Erro lexical na linha 12: caracter nao reconhecido '"'
+Tokens: 81 | Erros lexicais: 19

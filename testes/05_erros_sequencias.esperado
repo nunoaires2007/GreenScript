@@ -1,0 +1,45 @@
+2 LIGAR       LIGAR
+Erro lexical na linha 3: sequencia invalida 'LIGARX'
+Erro lexical na linha 4: sequencia invalida 'ligar'
+Erro lexical na linha 5: sequencia invalida 'Ligar'
+Erro lexical na linha 6: sequencia invalida 'EST-AA001'
+Erro lexical na linha 7: sequencia invalida 'EST-A101'
+Erro lexical na linha 8: sequencia invalida 'EST-aa01'
+Erro lexical na linha 9: sequencia invalida 'EST_AA01'
+Erro lexical na linha 10: sequencia invalida 'EST-AA1'
+Erro lexical na linha 11: sequencia invalida 'EST-'
+Erro lexical na linha 12: sequencia invalida '012'
+Erro lexical na linha 13: sequencia invalida '00'
+Erro lexical na linha 14: sequencia invalida '12abc'
+Erro lexical na linha 15: sequencia invalida 'REGAR_2'
+16 REGAR       REGAR
+16 ABRE_PAR    (
+16 INTEIRO     2
+16 VIRGULA     ,
+Erro lexical na linha 16: sequencia invalida '-5'
+16 FECHA_PAR   )
+16 PONTO_VIRG  ;
+17 LIGAR       LIGAR
+17 ABRE_PAR    (
+17 ID_ESTUFA   EST-AA01
+17 FECHA_PAR   )
+17 PONTO_VIRG  ;
+Erro lexical na linha 18: sequencia invalida 'SENAOX'
+18 ABRE_PAR    (
+18 INTEIRO     1
+18 FECHA_PAR   )
+20 AQUECER     AQUECER
+20 ABRE_PAR    (
+Erro lexical na linha 20: sequencia invalida '024'
+20 FECHA_PAR   )
+20 PONTO_VIRG  ;
+20 ESPERAR     ESPERAR
+20 ABRE_PAR    (
+Erro lexical na linha 20: sequencia invalida '60s'
+20 FECHA_PAR   )
+20 PONTO_VIRG  ;
+20 FECHAR      FECHAR
+20 ABRE_PAR    (
+20 FECHA_PAR   )
+20 PONTO_VIRG  ;
+Tokens: 27 | Erros lexicais: 17

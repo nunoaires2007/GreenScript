@@ -1,0 +1,2 @@
+testes/*.gs -text
+testes/*.esperado -text
